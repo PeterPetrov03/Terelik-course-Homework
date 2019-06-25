@@ -1,0 +1,32 @@
+body{
+	background-color: #595959;
+}
+.table_header {
+	color: #7F8081;
+	font-size: 22px;
+}
+.red_span {
+	color: red;
+	font-weight: bold;
+}
+.td_headers {
+	font-weight: italic;
+	color: #A39F9D;
+}
+.name_padding {
+	padding: 5px;
+}
+.yellow_text {
+	color: #ABA683;
+	font-weight: bold;
+}
+.grey_text {
+	color: #808182;
+}
+.orange_text {
+	color: #A2633B;
+	font-weight: bold;
+}
+.name_padding{
+	font-size: 18px;
+}

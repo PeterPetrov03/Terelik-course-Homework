@@ -1,0 +1,347 @@
+<html><head>
+<title>Sample-form</title>
+<style>
+	table, tr, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	table.custom, tr.custom, td.custom {
+		border: none;
+	}
+	.col_head {
+		text-align: center;
+		font-weight: bold;
+	}
+	.col_content {
+		text-align: left;
+	}
+	.col_content_1 {
+		font-weight: bold;
+	}
+	.left_col {
+		text-align: right;
+		font-weight: bold;
+	}
+	.form-margin {
+		margin-bottom: 0;
+	}
+	.city_row {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-top: none;
+		border-bottom: none;
+		text-align: center;
+	}
+	input[type="range"] {
+		margin-left: 30px;
+		width: 200px;
+		height: 50px;
+	}
+	.custom_fieldset {
+		display: table;
+	}
+	.left_span {
+		float: left;
+		text-align: center;
+	}
+	.right_span {
+		text-align: right;
+		
+	}
+	.ssd_align {
+		vertical-align: bottom;
+	}
+</style>
+</head>
+<body>
+<form action="/" method="post">
+<table cellpadding="5">
+	<colgroup>
+		<col width="160px">
+	</colgroup>
+	<tbody><tr>
+		<td class="left_col">Last Name</td>
+		<td>
+			<div class="form-margin">
+				<input class="form-margin" type="text" style="width: 98%;">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">First Name</td>
+		<td>
+			<div class="form-margin">
+				<input type="text" style="width: 98%;">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Address</td>
+		<td style="height: 60px;">
+			<div class="form-margin">
+				<input type="textarea" style="height: 45px; width: 90%;">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">City</td>
+		<td style="padding: 0 !important;">
+			<table style="border: none; padding: 0;">
+				<tbody><tr style="border: none; padding: 0;">
+					<td style="border: none;"><input type="text" style="width: 96%; margin-left: 4px;"></td>
+					<td class="city_row"><span style="padding: 5px 5px 5px 5px;"><strong>State</strong></span></td>
+					<td style="border: none;padding: 0;width: 22%;"><input type="number" style="/* padding-left: 0px; */width: 80%;padding: 0px;margin-left: 9px;"></td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Zip/Postal Code</td>
+		<td>
+			<input type="nuber" pattern="[0-9]{4}" style="width: 25%;">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Country</td>	
+		<td>
+			<input list="countries" name="countries" style="width:65%;">
+				<datalist id="countries">
+				<option value="USA">
+				<option value="Canada">
+				<option value="Germany">
+				<option value="France">
+				<option value="Bulgaria">
+				<option value="England">
+				<option value="Spain">
+				<option value="Brazil">
+				<option value="Argentina">
+				<option value="Switzerland">
+			</datalist>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Phone(country code, area code, number)</td>
+		<td>
+			<span style="padding: 0 5px 0 5px;">(+</span><input type="nuber" style="width:60px;"><span style="padding: 0 3px 0 7px;">)</span>
+			<input type="nuber" style="width:60px;padding-left: 10px;"> - 
+			<input type="nuber">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">E-mail</td>
+		<td>
+			<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="width: 90%;">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Birth date</td>
+		<td>
+			<span style="padding-right: 5px;">Month</span><input type="number" min="1" max="12" style="width: 35px;">
+			<span style="padding: 0 5px 0 10px;">Day</span><input type="number" min="1" max="31" style="width: 35px;">
+			<span style="padding: 0 5px 0 10px;">Year (4 digit)</span><input type="number" min="1960" max="2019" style="width: 70px;">
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Gender</td>
+		<td>
+			<input list="gender" style="width: 70px;">
+				<datalist id="gender">
+					<option value="Male">
+					<option value="Female">
+					<option value="Other">
+				</datalist>
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Starting date</td>
+		<td>
+			<input type="radio" name="date" value="Spring 2006">Spring 2006
+			<input type="radio" name="date" value="Summer 2006">Summer 2006
+		</td>
+	</tr>
+	<tr>
+		<td class="left_col">Comments/Questions</td>
+		<td style="height: 120px;">
+			<div class="form-margin">
+				<input type="textarea" placeholder="Please send me more information about the loging" style="height: 100px; width: 80%;">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="background-color:#D1EDE1;">
+			<div style="width: 145px; margin: 0 auto;">
+				<input type="submit" name="submit" value="Submit">
+				<input type="reset" value="Clear Form">
+		</td>
+	</tr>
+</tbody>
+</table>
+</form>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<table cellpadding="10px">
+	<tr>
+		<td colspan="3" style="text-align: center;font-size: 20px;">
+			<a href="#">Apple</a>
+			<a href="#">Toshiba</a>
+			<a href="#">Lenovo</a>
+			<a href="#">Dell</a>
+			<a href="#">Asus</a>
+			<a href="#">Hacer</a>
+			<a href="#">HP</a>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-right: none;">
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td style="border-left: none; border-right: none;">
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend style="text-align: center;">Apple MacBook Air</legend>
+				<table class="custom" style="border-color: #000;">
+					<tr class="custom">
+						<td class="custom" rowspan="2"><img src="laptop.png"></td>
+						<td class="custom ssd_align">64GB SSD</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom">2GB DDR</td>
+					</tr>
+					<tr class="custom">
+						<td class="custom" style="text-align:center;">1300 USD</td>
+						<td class="custom">Intel Core i5</td>
+					</tr>
+				</table>
+			</fieldset>
+		</td>
+		<td rowspan="3" style="border-left: none; font-size: 30px;">
+			<span style="text-align: center;">
+				Min price:  500 USD<br>
+				<input type="range" min="0" max="1000"><br>
+			</span>
+			<span style="text-align: center;">
+			Max price:  1500 USD<br>
+			<input type="range" min="1000" max="10000"><br>
+			</span>
+			<span style="text-align: center;">
+			Min RAM:  4 GB<br>
+			<input type="range" min="0" max="8"><br>
+			</span>
+			<span style="text-align: center;">
+			Max RAM:  16 GB<br>
+			<input type="range" min="8" max="64">
+			</span>
+		</td>
+	</tr>
+
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nav WithOut Bootstrap</title>
+    <meta charset="utf-8" />
+	<style>
+		ul li ul li {
+			padding-left: 10px;
+		}
+		ul li ul {
+			display: none;
+		}
+		ul li:hover ul {
+			display: block;
+		}
+		.sub_item {
+			display: none;
+		}
+		.nav-item:hover .sub_item {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+<ul>
+	<li><a href="#">List Item</a>
+		<ul>
+			<li>List Item</li>
+			<li><a href="#">List Item</a>
+				<ul>
+					<li>List Item</li>
+					<li><a href="#">List Item</a>
+						<ul>
+							<li>List Item</li>
+							<li><a href="#">List Item</a></li>
+							<li>List Item</li>
+							<li>List Item</li>
+							<li>List Item</li>
+						</ul>
+					</li>
+					<li>List Item</li>
+					<li>List Item</li>
+					<li>List Item</li>
+				</ul>
+			</li>
+			<li>List Item</li>
+			<li>List Item</li>
+			<li>List Item</li>
+		</ul>
+	</li>
+</ul>
+</body>
+</html>

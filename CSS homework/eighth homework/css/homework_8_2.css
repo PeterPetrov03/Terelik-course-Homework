@@ -1,0 +1,15 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+body {
+    width: 1400px;
+}
+
+div {
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 50px;
+    padding-right: 3%;
+}

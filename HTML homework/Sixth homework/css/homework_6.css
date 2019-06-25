@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman';
+    background-color: #a9a9a9;
+}
+
+h1 {
+    color: #f7f6cf;
+    text-align: center;
+    font-size: 40px;
+}
+
+.left-align {
+    text-align: left;
+    padding: 25px;
+}
+
+ul, a {
+    text-align: center;
+    color: white;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+p {
+    padding-left: 50px;
+}
+
+.author {
+    color: black;
+    background-color: none !important;
+}
+
+.post {
+    margin-top: 20px;
+}
+
+#telerik {
+    margin-top: 10px;
+    text-align: center;
+}
+
+li, a {
+    font-size: 20px;
+}
+
+.hover:hover {
+    background-color: #d3d3d3;
+}
+
+#li_underline {
+    text-decoration: underline;
+}
+
+#footer {
+    font-size: 20px;
+	width: 375px;
+    margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Consolas;
+  src: url(fonts/consolas/CONSOLA.TTF);
+}
+@font-face {
+	font-family: 'Edwardian-Script-ITC_15099';
+	src: url(fonts/Edwardian-Script-ITC_15099.ttf);
+}
+.first_letter {
+	font-family: Edwardian-Script-ITC_15099;
+	font-size: 35px;
+	color: #0094ff;
+	font-weight: bold;
+}
+.top_sentence {
+	font-family: Consolas;
+	color: #0094ff;
+	font-weight: bold;
+}
+.second_sentence {
+	font-family: Consolas;
+	color: #0094ff;
+}

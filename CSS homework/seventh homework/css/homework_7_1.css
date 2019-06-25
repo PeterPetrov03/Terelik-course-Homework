@@ -1,0 +1,26 @@
+.border_left_right{
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+.border_right_bottom {
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+}
+.border_bottom {
+	border-bottom: 1px solid;
+}
+.border_right {
+	border-right: 1px solid;
+}
+table {
+	border-collapse: collapse;
+}
+.green_background {
+	background-color:#56B906;
+}
+.white_background {
+	background-color:#fff;
+}
+.yellow_background {
+	background-color:#ECECD8;
+}
