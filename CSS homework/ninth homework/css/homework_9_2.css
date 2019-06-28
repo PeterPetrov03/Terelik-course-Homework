@@ -1,0 +1,22 @@
+header {
+	
+}
+nav {
+	background-color: #3B3B3B;
+	padding: 10px 5px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+.content {
+	width: 650px;
+	margin: 0 auto;
+	background-color: #373737;
+}
+.member {
+	color: #fff;
+	font-size: 15px;
+}
+.member, .name, .email {
+	position: absolute;
+	
+}
