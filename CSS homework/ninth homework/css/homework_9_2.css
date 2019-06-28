@@ -1,11 +1,8 @@
-header {
-	
-}
 nav {
 	background-color: #3B3B3B;
 	padding: 10px 5px;
 	border: 1px solid #ccc;
-	border-radius: 10px;
+	border-: 10px;
 }
 .content {
 	width: 650px;
@@ -18,5 +15,7 @@ nav {
 }
 .member, .name, .email {
 	position: absolute;
-	
+}
+.email {
+	right: 10px;
 }
