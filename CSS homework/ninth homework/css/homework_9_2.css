@@ -8,6 +8,7 @@ nav {
 	width: 650px;
 	margin: 0 auto;
 	background-color: #373737;
+	position: relative;
 }
 .member {
 	color: #fff;
@@ -17,5 +18,5 @@ nav {
 	position: absolute;
 }
 .email {
-	right: 10px;
+	right: 25px;
 }
