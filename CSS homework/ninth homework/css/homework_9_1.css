@@ -5,12 +5,14 @@ body {
 .content {
 	background-color: #EEEEEE;
 	border-radius: 10px;
-	width: 415px;
+	width: 460px;
+	padding: 5px;
 }
 article {
 	border: 1px solid #ccc;
 	background-color: #fff;
 	padding: 20px;
+	margin: 30px;
 	position: relative;
 }
 img {
@@ -27,6 +29,11 @@ p:after {
 	clear: both;
 	display: block;
 	height: 0;
+}
+.heading {
+	font-size: 18px;
+	font-weight: lighter;
+	margin-left: 20px;
 }
 .listen, .add, .listen_2, .add_2, .add_3, .listen_3 {
     border-color: rgb(204, 0, 1);
