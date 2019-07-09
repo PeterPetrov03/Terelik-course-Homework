@@ -1,22 +1,55 @@
 nav {
 	background-color: #3B3B3B;
 	padding: 10px 5px;
-	border: 1px solid #ccc;
-	border-: 10px;
+	border: 1px solid #333;
+	border-radius: 10px 10px 0 0;
 }
 .content {
 	width: 650px;
 	margin: 0 auto;
 	background-color: #373737;
 	position: relative;
-}
-.member {
-	color: #fff;
-	font-size: 15px;
+	border: 1px solid #111;
+	border-radius: 10px;
 }
 .member, .name, .email {
 	position: absolute;
 }
 .email {
-	right: 25px;
+	top: 20px;
+	right: 80px;
+}
+.name {
+	top: 20px;
+	right: 270px;
+}
+.member {
+    color: #fff;
+    font-size: 20px;
+    right: 460px;
+    top: 18px;
+}
+.button_img {
+	float: right;
+}
+.main_div {
+	padding-top: 1px;
+	box-shadow: 0 -10px 20px #111 ;
+}
+h1 {
+	font-size: 25px;
+	color: #F8D71B;
+	font-weight: lighter;
+	margin-left: 10px;
+}
+.main_text {
+	color: #767676;
+	padding-left: 10px;
+}
+p span {
+	color: #fff;
+}
+p a {
+	color: #767676;
+	text-decoration: none;
 }
