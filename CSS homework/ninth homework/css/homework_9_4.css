@@ -1,0 +1,82 @@
+* {
+	font-weight: bold;
+}
+
+.main_content {
+	width: 950px;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 25px;
+}
+.main_header {
+	text-align: center;
+	padding: 10px 0;
+	font-size: 25px;
+}
+.main_header a {
+	color: #11B3F1;
+	font-weight: bold;
+}
+hr {
+	width: 92%;
+}
+.laptops {
+    padding: 5px;
+    width: 60%;
+    border: 2px solid;
+    height: 475px;
+    margin: 10px;
+}
+.element {
+    border: 2px solid;
+    height: 140px;
+    position: relative;
+	margin-top: 13px;
+}
+.element_heading {
+    position: absolute;
+    background-color: #fff;
+    top: -15px;
+    left: 60px;
+    z-index: 999;
+    font-weight: bold;
+    padding: 5px;
+}
+img {
+    padding: 5px;
+    width: 50%;
+    float: left;
+}
+.first_col, .second_col {
+	padding: 5px;
+	width: 48%;
+}
+.first_col {
+	float: left;
+}
+
+.second_col {
+	float: right;
+}
+.price {
+    width: 30%;
+    display: inline;
+    float: left;
+    padding: 10px;
+    margin-left: 35px;
+}
+.secon_second_row div {
+	padding: 10px;
+	margin-left: 160px;
+}
+.sliders {
+    position: absolute;
+    right: 20px;
+    top: 160px;
+    text-align: center;
+    font-size: 25px;
+}
+#myRange {
+	width: 275px;
+	padding: 15px;
+}
