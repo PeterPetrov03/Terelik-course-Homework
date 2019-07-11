@@ -1,0 +1,41 @@
+.main_content {
+	background-color: #1E3741;
+	width: 700px;
+}
+nav {
+	background-color: #1E3741;
+	width: 567px;
+}
+nav ul {
+		margin: 5px 0;
+	padding-left: 0;
+}
+nav ul li {
+	display: inline-block;
+	background-color: #4B5F67;
+	padding: 10px;
+	color: #7693A2;
+}
+nav ul li:hover, nav ul li:active {
+	color: #fff;
+	background-color: #1E3741;
+}
+div.news ul {
+	padding-left: 0;
+	width: 268px;
+}
+div.news ul li {
+	color: #7693A2;
+	background-color: #1E3741;
+	border-bottom: 1px solid #2B414B;
+	list-style: none;
+	padding: 10px 0;
+	padding-left: 10px;
+	padding-right: 18px;
+}
+.videos img {
+    position: absolute;
+    top: 62px;
+    left: 276px;
+    width: 397px;
+}
